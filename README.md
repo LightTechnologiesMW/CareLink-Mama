@@ -92,7 +92,7 @@ tests/                     Simulator and automated flow tests
 docs/                      Architecture and privacy/data-handling
 ```
 
-## Before any pilot
+## Before any pilot Light Technologies will do the following)
 
 - Replace sample data: `DELETE FROM providers WHERE is_sample = 1;`, add real providers, set `verified = 1` only after confirming details with the facility, and set `ALLOW_SAMPLE_DATA=0`.
 - Have clinicians approve the need categories, urgency flags and emergency wording in `src/data.php` and `src/strings.php`.
@@ -101,4 +101,4 @@ docs/                      Architecture and privacy/data-handling
 
 ## Licence
 
-MIT (see `LICENSE`). Change this if the fund requires a different OSI-approved licence.
+MIT (see `LICENSE`).
