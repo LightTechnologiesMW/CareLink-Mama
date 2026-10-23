@@ -21,7 +21,7 @@ A basic-phone-first health access and referral coordination platform for women a
 | "My referral" status screen | **Working** |
 | SMS details to user, provider alert, follow-up check, reply handling | **Implemented, not yet tested against a live Africa's Talking account** |
 | Coordinator view of unresolved / incomplete referrals (SQL view) | **Working** (no UI yet) |
-| Chichewa translations | **Draft**, needs native-speaker and clinical review |
+| Chichewa translations | **Draft**, needs clinical wording and clinical review |
 | Voice (IVR) | Planned |
 | AI-assisted classification and prioritisation of incomplete referrals | Planned |
 | GIS / distance-based matching (lat/long columns reserved) | Planned |
