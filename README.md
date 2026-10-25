@@ -90,7 +90,7 @@ cron/send_followups.php    Sends follow-up checks, flags incomplete referrals
 database/carelink.sql      Schema, districts, categories, fictional sample data
 tests/                     Simulator and automated flow tests
 docs/                      Architecture and privacy/data-handling
-AI Models                  AI classification models and Tests
+AI Models/                  AI classification models and Tests
 ```
 
 ## Before any pilot Light Technologies will do the following)
