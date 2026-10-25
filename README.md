@@ -14,7 +14,7 @@ A basic-phone-first health access and referral coordination platform for women a
 | Consent screen before anything is stored | **Working** |
 | Report a need (pregnant / new mother & baby 0-90 days / adolescent) | **Working** |
 | Region and district selection (all 28 districts, paged) | **Working** |
-| Matching to verified directory entries by district + service type | **Working** (rule-based, not AI) |
+| Matching to verified directory entries by district + service type | **Working** |
 | "Find a service" (stores nothing) | **Working** |
 | Emergency advice screen, urgent-need warnings | **Working**, wording needs clinical review |
 | Case, referral and follow-up records (`database/carelink.sql`) | **Working** |
