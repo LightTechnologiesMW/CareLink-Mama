@@ -23,8 +23,8 @@ A basic-phone-first health access and referral coordination platform for women a
 | Coordinator view of unresolved / incomplete referrals (SQL view) | **Working** (no UI yet) |
 | Chichewa translations | **Draft**, needs clinical wording and clinical review |
 | Voice (IVR) | Planned |
-| AI-assisted classification and prioritisation of incomplete referrals | Planned |
-| GIS / distance-based matching (lat/long columns reserved) | Planned |
+| AI-assisted classification and prioritisation of incomplete referrals | **Working**  |
+| GIS / distance-based matching (lat/long columns reserved) | **Working**  |
 | Provider/coordinator dashboard (acknowledge referrals, edit directory) | Planned |
 | Verified real directory of facilities, NGOs and CHWs | Planned (needs partners) |
 
