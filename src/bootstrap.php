@@ -29,16 +29,11 @@ function cfg(string $key, ?string $default = null): ?string
     return $v === false ? $default : $v;
 }
 
-// Settings for AwardSpace hosting (replaces the .env file)
-$_ENV = array_merge($_ENV, [
-    'DB_HOST'           => 'fdb1033.awardspace.net',
-    'DB_PORT'           => '3306',
-    'DB_NAME'           => '4745424_carelink',
-    'DB_USER'           => '4745424_carelink',
-    'DB_PASS'           => '1Vyrus1nia',
-    'SMS_ENABLED'       => '0',
-    'ALLOW_SAMPLE_DATA' => '1',
-]);
+// Local settings (not stored in GitHub)
+$local = __DIR__ . '/config.local.php';
+if (is_file($local)) {
+    $_ENV = array_merge($_ENV, require $local);
+}
 
 /** Work to run AFTER the USSD response has been sent (SMS, provider alerts). */
 $GLOBALS['deferred'] = [];
